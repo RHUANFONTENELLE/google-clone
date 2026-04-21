@@ -1,0 +1,74 @@
+/*  BORDER RADIUS PAR AARREDONDAR AS BORDAS */
+/*  */
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.nav-right a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+/* MAIN */
+
+main{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main img{
+    width: 272px;
+    margin-bottom: 20px;
+}
+
+.seach-box input{
+    width: 500px;
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+.buttons{
+    margin-top:20px;
+}
+
+.buttons button{
+    margin: 0 5px;
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    cursor:pointer;
+    border-radius: 4px;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+
+.footer-left{
+    text-decoration: none;
+}
