@@ -72,3 +72,12 @@ footer{
 .footer-left{
     text-decoration: none;
 }
+
+@media (max-width: 600px){
+    main img{
+        width: 200px;
+    }
+    .seach-box input{
+        width: 300px;
+    }
+}
